@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --canvas: #f6f5f2;
+  --surface: #ffffff;
+  --ink: #1a1a18;
+  --muted: #6b6966;
+  --accent: #2d6a5c;
+  --accent-hover: #245548;
+  --line: #e8e6e1;
+  --accent-soft: rgba(45, 106, 92, 0.08);
+}
+
+body {
+  @apply bg-canvas text-ink antialiased;
+}
